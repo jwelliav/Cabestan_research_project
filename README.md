@@ -1,10 +1,5 @@
 # Cabestan_research_project
 
-
-A Study of four financial time series.
-
-Introduction :
-
 We are given four assets : A,B,C and D and will attempt to predict the closing
 prices of these assets using ARIMA and VAR models. We fit ARIMA and VAR models at first 
 for just the data coming from each asset, we will then run the combined data through the 
