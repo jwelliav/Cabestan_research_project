@@ -5,7 +5,12 @@ A Study of four financial time series.
 
 Introduction :
 
-We are given four assets : A,B,C and D and will attempt to predict the closing prices of these assets using ARIMA and VAR models. We fit ARIMA and VAR models at first for just the data coming from each asset, we will then run the combined data through the models after employing a dimensionality reduction to obtain slightly better scores. In all cases, our models are tested using a rolling forecast test, which is a form of Cross Validation for time series data. The final results can be summarized in the following tables.
+We are given four assets : A,B,C and D and will attempt to predict the closing
+prices of these assets using ARIMA and VAR models. We fit ARIMA and VAR models at first 
+for just the data coming from each asset, we will then run the combined data through the 
+models after employing a dimensionality reduction to obtain slightly better scores. In all 
+cases, our models are tested using a rolling forecast test, which is a form of Cross Validation
+for time series data. The final results can be summarized in the following tables.
 
 
     ARIMA	    VAR	    Naive	 VAR Combined	 VAR + PCA
